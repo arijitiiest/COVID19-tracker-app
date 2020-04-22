@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "COVID19-Tracker-app",
+    "slug": "COVID19-tracker-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Coronavirus.png",
+    "splash": {
+      "image": "./assets/Coronavirus.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.arijitiiest.herokuapp.covid19-tracker-info-app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon" :{
+        "foregroundImage": "./assets/Coronavirus.png",
+        "backgroundColor": "#171717"
+      },
+      "package": "com.arijitiiest.herokuapp.covid19_tracker_app",
+      "versionCode": 1
+    }
+  }
+}
